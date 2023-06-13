@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('build') {
+        stage("build") {
           steps {
                 echo 'building my application...'
             }
@@ -13,7 +13,7 @@ pipeline {
                 git'https://github.com/Bussyoshodi7/jenkins.git'
             }
         }
-        stage('deploy') {
+        stage("deploy") {
            steps {
               echo 'deploying my application...'
             }
