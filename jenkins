@@ -10,7 +10,7 @@ pipeline {
 
         stage("test") {
             steps {
-                git'https://github.com/Bussyoshodi7/jenkinsfile.tf.'
+                git'https://github.com/Bussyoshodi7/jenkins.git'
             }
         }
         stage('deploy') {
